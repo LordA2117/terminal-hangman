@@ -14,7 +14,8 @@ colours = ['green', 'cyan', 'yellow', 'magenta', 'white', 'light_red', 'red']
 print(colored('Hangman is a game of guessing', 'green'))
 print(colored('Your goal is to guess the word and save the man from certain death', 'yellow'))
 print(colored('Can you save him on time \U0001F608 ? ', 'red'))
-sleep(3)
+print('Press any key to continue...')
+input()
 os.system('cls')
 
 i = 0
